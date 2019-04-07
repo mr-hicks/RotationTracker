@@ -1,0 +1,44 @@
+title:Flex Time
+--------------------
+duration:10
+--------------------
+frame_color:#CEFFDA
+--------------------
+text_color:black
+--------------------
+sound:
+--------------------
+Achieve:
+
+A~Activity~
+Flex Time
+
+C~Voice
+Level~
+2
+
+H~Help~
+Partner
+Teacher
+
+I~Integrity~
+Respect those
+working
+
+E~Effort~
+Work if
+you need
+
+V~Value~
+Recharge
+
+E~Efficiency~
+Prepare for
+Distraction Free
+--------------------
+Description:
+You do you.
+
+This means:
+ * Respect those choosing
+    to work

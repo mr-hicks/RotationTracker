@@ -1,0 +1,45 @@
+title:Bellwork
+--------------------
+duration:2.5
+--------------------
+frame_color:white
+--------------------
+text_color:black
+--------------------
+sound:
+--------------------
+Achieve:
+
+A~Activity~
+Preparation
+
+C~Voice
+Level~
+1
+
+H~Help~
+Read the
+board
+
+I~Integrity~
+Respect
+Others
+
+E~Effort~
+Respect
+
+V~Value~
+Prepare
+
+E~Efficiency~
+Work before
+play
+--------------------
+Description:
+Phones AWAY
+    They must be in the shoe carrier 
+    to use a tech time!!
+
+ * Get out your lab notebooks
+ * Get out your computer
+ * Get out any lab supplies you need

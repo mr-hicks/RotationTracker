@@ -1,0 +1,48 @@
+title:Distraction Free
+--------------------
+duration:15
+--------------------
+frame_color:LightBlue1
+--------------------
+text_color:black
+--------------------
+sound:
+--------------------
+Achieve:
+
+A~Activity~
+Distraction
+Free
+
+C~Voice
+Level~
+0.5
+
+H~Help~
+Yourself
+Partner
+
+I~Integrity~
+Engage!!!
+
+E~Effort~
+Engage!!!
+
+V~Value~
+Practice
+Self-regulation
+
+E~Efficiency~
+Work the
+entire time
+--------------------
+Description:
+Engage with your work
+         to
+Solve your own problem
+
+This means:
+ * If stuck, KEEP TRYING
+ * Academic websites
+ * Quietly talk with your partner
+ * Only emergency breaks

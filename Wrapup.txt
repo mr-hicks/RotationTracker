@@ -1,0 +1,48 @@
+title:Wrap Up
+--------------------
+duration:5
+--------------------
+frame_color:#FF8FA0
+--------------------
+text_color:black
+--------------------
+sound:
+--------------------
+Achieve:
+
+A~Activity~
+Wrap Up
+
+C~Voice
+Level~
+1
+
+H~Help~
+Ask
+
+I~Integrity~
+Clean up
+
+E~Effort~
+Help others
+wrap up
+
+V~Value~
+Prepare for
+next class
+
+E~Efficiency~
+SAVE!!!
+
+--------------------
+Description:
+The end is near!!!
+  * Finish what you are doing
+  * SAVE!!!
+  * Checkin with your daily log buddy
+  * Cleanup your area
+  * Do your dishes
+  * Leave the drink station clean
+
+B3/W4
+  * Please put up your chairs

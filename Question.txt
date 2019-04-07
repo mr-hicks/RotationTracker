@@ -1,0 +1,44 @@
+title:Question & Discussion
+--------------------
+duration:5
+--------------------
+frame_color:lemon chiffon
+--------------------
+text_color:black
+--------------------
+sound:
+--------------------
+Achieve:
+
+A~Activity~
+Question &
+Discussion
+
+C~Voice
+Level~
+1
+
+H~Help~
+Raise hand
+
+I~Integrity~
+Listen
+
+E~Effort~
+Engage
+
+V~Value~
+Make your 
+work easier
+
+E~Efficiency~
+Have questions
+prepared
+--------------------
+Description:
+Class discussion to 
+answer any questions
+
+This means
+  * Engage with discussion
+  * Listen to others
