@@ -21,3 +21,13 @@ However if needed I'll answer or direct the conversation as needed.
 This is the time students have to themselves, they can watch videos, listen to music, socialize with others.
 Students must respect those that are trying to continue working by not distracting them.
 The teachers job is to answer any other questions and check in with the students.
+
+# Usage Notes
+Each 'slide' of the rotation timer has its own text file with all of the information that is loaded to that slide.
+
+Currently the order is fixed, but will probably be made flexible in the future.
+
+Additionally, there is music that plays when the rotation changes, but due to copyright laws,
+no music was synced to this repository.
+
+Playing music requires (at the moment) that the user have VLC installed because it relies on VLC to play the media because I have yet to find an easy python module that will do the job.
