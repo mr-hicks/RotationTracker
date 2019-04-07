@@ -6,6 +6,8 @@ In an effort to model a self-paced structure I have devised the following rotati
   * 15 minutes of Distraction Free time
   * 5 minutes of Question/Discussion time
   * 10 minutes of Flex Time
+
+![Example of the timer](Example.png)
   
 ## Distraction Free
 Students must be working on academic work and I (the teacher) will NOT answer questions.
