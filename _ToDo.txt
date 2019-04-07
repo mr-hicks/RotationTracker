@@ -1,0 +1,4 @@
+-- 7 Apr 19 --
+Make it so that the order is determined by a text file.
+Include the option to have a certain segment looped.
+
