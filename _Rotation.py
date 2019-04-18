@@ -293,17 +293,20 @@ class MainApp:
             self.filePlay('DistractionFree.mp3')
             self.timerPause()
         elif self.currentStep is 'DistractionFree.txt':
-            self.LoadState('Question.txt')
-            self.timerPause()
-            self.filePlay('Question.mp3')
-            self.player.set_time(26000)
-        elif self.currentStep is 'Question.txt':
             self.LoadState('FlexTime.txt')
             self.filePlay('FlexTime.mp3')
             self.timerPause()
-        elif self.currentStep is 'Wrapup.txt':
-            self.LoadState('Bellwork.txt')
-            self.timerPause()
+        #     self.LoadState('Question.txt')
+        #     self.timerPause()
+        #     self.filePlay('Question.mp3')
+        #     self.player.set_time(26000)
+        # elif self.currentStep is 'Question.txt':
+        #     self.LoadState('FlexTime.txt')
+        #     self.filePlay('FlexTime.mp3')
+        #     self.timerPause()
+        # elif self.currentStep is 'Wrapup.txt':
+        #     self.LoadState('Bellwork.txt')
+        #     self.timerPause()
         else:
             self.LoadState('DistractionFree.txt')
             self.filePlay('DistractionFree.mp3')
@@ -362,9 +365,9 @@ class MainApp:
         # update the end time:
         if len(self.endTimes) > 1:
             for endTime in self.endTimes:
-                tmp = str(endTime - datetime.now())
+                tmp = endTime - datetime.now()
                 # print('End time tested: ', tmp)
-                if '-1 day' in tmp:
+                if tmp.days < 0:
                     pass
                 else:
                     self.endTime = endTime
@@ -387,7 +390,7 @@ class MainApp:
             timeLeft = self.endTime - datetime.now()
 
             # test to see if time left is positive
-            cond1 = '-1 Day' not in str(timeLeft)
+            cond1 = timeLeft.days >= 0
             # print(str(timeLeft))
             # print('Timeleft positive? ', cond1)
 
@@ -398,6 +401,7 @@ class MainApp:
             if cond1 and cond2:
                 print('Wrapping up!!!')
                 self.ending = True
+                self.timerActive = False
                 self.LoadState('Wrapup.txt')
                 self.timerPause()
                 self.filePlay('Wrapup.mp3')
@@ -432,7 +436,7 @@ class MainApp:
             self.PhotoLabel.config(image=self.Photo1)
             self.PhotoLabel.image = self.Photo1
 
-        if '-1 day' in str(self.timerRemaining):
+        if self.timerRemaining.days < 0:
             self.Advance()
 
         if self.timerActive:
@@ -443,12 +447,12 @@ class MainApp:
         self.timerButton.configure(
             text=text)
 
-    def timerFormat(self, seconds):
+    def timerFormat(self, tmp_timedelta):
         '''Returns a MM:SS string from the seconds
          OR time delta value value given'''
-        minutes = str(seconds).split(':')[1]
-        seconds = float(str(seconds).split(':')[2])
-        text = '{}:{:02.0f}'.format(minutes, seconds)
+        minutes = tmp_timedelta.seconds // 60
+        seconds = tmp_timedelta.seconds % 60
+        text = f'{minutes: 2}:{seconds:02}'
         return text
 
     def key(self, event):

@@ -15,10 +15,9 @@ Flex Time
 
 C~Voice
 Level~
-2
+1
 
 H~Help~
-Partner
 Teacher
 
 I~Integrity~
@@ -37,8 +36,9 @@ Prepare for
 Distraction Free
 --------------------
 Description:
-You do you.
+You can have some relaxation time.
+  - Stand and stretch
+  - Tech Time IF your phone is in the front
+  - Talk quietly
 
-This means:
- * Respect those choosing
-    to work
+Respect those still choosing to work.

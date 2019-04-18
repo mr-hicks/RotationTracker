@@ -1,6 +1,6 @@
 title:Distraction Free
 --------------------
-duration:15
+duration:35
 --------------------
 frame_color:LightBlue1
 --------------------
